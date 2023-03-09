@@ -40,7 +40,6 @@ let thumbnailsImageContainer;
 
 //inserisco un immagine di default in pagina
 let imageBig = document.createElement("img");
-imageBig.classList.add("active-image");
 imageBig.src = images[activeImageIndex].image;
 imageContainerEl.append(imageBig);
 
